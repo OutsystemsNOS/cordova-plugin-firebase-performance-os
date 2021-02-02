@@ -58,7 +58,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             <meta-data android:name="firebase_performance_collection_enabled" android:value="true" />
         </config-file>
 
-        <dependency id="cordova-support-google-services" version="^1.3.0"/>
+        <!-- <dependency id="cordova-support-google-services" version="^1.3.0"/> -->
         <framework src="com.google.firebase:firebase-perf:$FIREBASE_PERF_VERSION" />
 
         <source-file src="src/android/FirebasePerformancePlugin.java"
